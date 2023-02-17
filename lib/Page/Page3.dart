@@ -61,7 +61,7 @@ class Page1 extends StatelessWidget {
                           leading: CircleAvatar(
                             child: Text(
                               data.room,
-                              style: getTextstyle(25),
+                              style: getTextstyle(18),
                             ),
                           ),
                           title: Row(

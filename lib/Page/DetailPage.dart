@@ -25,7 +25,6 @@ class DetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            getSizedBox(20, 0),
             Text(
               'ห้อง ${data.room}',
               style: getTextstyle(30),
@@ -40,7 +39,7 @@ class DetailPage extends StatelessWidget {
                 ),
               ],
             ),
-            getSizedBox(20, 0),
+            getSizedBox(10, 0),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -52,7 +51,7 @@ class DetailPage extends StatelessWidget {
                 ),
               ],
             ),
-            getSizedBox(20, 0),
+            getSizedBox(10, 0),
             Column(
               children: [
                 Table(
@@ -65,27 +64,27 @@ class DetailPage extends StatelessWidget {
                       paddingfortable('น้ำ', 20),
                     ]),
                     TableRow(children: [
-                      paddingfortable('ก่อน(หน่วย)', 18),
+                      paddingfortable('   ก่อน\n(หน่วย)', 18),
                       paddingfortable('${data.Eprevious}', 18),
                       paddingfortable('${data.Wprevious}', 18),
                     ]),
                     TableRow(children: [
-                      paddingfortable('หลัง(หน่วย)', 18),
+                      paddingfortable('   หลัง\n(หน่วย)', 18),
                       paddingfortable('${data.Ecurrent}', 18),
                       paddingfortable('${data.Wcurrent}', 18),
                     ]),
                     TableRow(children: [
-                      paddingfortable('ผลต่าง(หน่วย)', 18),
+                      paddingfortable(' ผลต่าง\n(หน่วย)', 18),
                       paddingfortable('$Ediff', 18),
                       paddingfortable('$Wdiff', 18),
                     ]),
                     TableRow(children: [
-                      paddingfortable('หน่วยละ(บาท)', 16),
+                      paddingfortable('หน่วยละ\n  (บาท)', 18),
                       paddingfortable('${data.Eunit}', 18),
                       paddingfortable('${data.Wunit}', 18),
                     ]),
                     TableRow(children: [
-                      paddingfortable('แยก(บาท)', 18),
+                      paddingfortable('บิลแยก\n (บาท)', 18),
                       paddingfortable('$Ebill', 18),
                       paddingfortable('$Wbill', 18),
                     ]),
