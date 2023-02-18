@@ -1,16 +1,13 @@
 # bill_management
 
-A new Flutter project.
+แอปพลิเคชันบันทึกบิลค่าไฟ
 
+สามารถบันทึกแก้ไขลบ 
+ข้อมูลสามารถที่บันทึกลบแก้ไข ห้อง ชื่อ หน่วยไฟฟ้ากับน้ำ ก่อนและหลัง ราคาต่อหน่วย
+ข้อมูลที่สามารถแสดง ห้อง ชื่อ วันที่บันทึก หน่วยไฟฟ้ากับน้ำ ก่อนและหลัง ราคาต่อหน่วย 
+                 หน่วยไฟฟ้าและน้ำปัจจุบัน-ก่อน ราคาค่าไฟรวม
+                 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
+ใช้ Dependensies หลักๆมี Provider จัดการ Data , Hive เก็บ Data
+เก็บข้อมูล Local Database บันทึกไว้ในอุปกรณ์
